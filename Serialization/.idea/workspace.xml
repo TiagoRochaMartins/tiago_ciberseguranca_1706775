@@ -22,8 +22,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Python.deserialization3">
-    <configuration name="deserialization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/1706775/Desktop/github_projecto/tiago_ciberseguranca_1706775/rpc/SimpleXMLRPCServer.py"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.SimpleXMLRPCServer">
+    <configuration name="SimpleXMLRPCServer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Serialization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -31,11 +36,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../rpc" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deserialization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rpc/SimpleXMLRPCServer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SimpleXMLRPCServer" />
         <item itemvalue="Python.deserialization3" />
         <item itemvalue="Python.serialization3" />
         <item itemvalue="Python.deserialization2" />
         <item itemvalue="Python.serialization2" />
-        <item itemvalue="Python.deserialization" />
       </list>
     </recent_temporary>
   </component>
