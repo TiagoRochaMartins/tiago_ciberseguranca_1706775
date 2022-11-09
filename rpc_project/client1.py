@@ -7,6 +7,8 @@ print(type(x))
 print(s.pow(x%150,y%10))  # Returns 2**3 = 8
 print(s.add(x,y))  # Returns 5
 print(s.div(x,y))  # Returns 5
+print(s.mult(x,y))
+print(s.sub(x,y))
 print(s.mul(x,y))  # Returns 5*2 = 10
 
 

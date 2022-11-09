@@ -25,11 +25,26 @@ with SimpleXMLRPCServer(('localhost', 8000),
     server.register_function(adder_function, 'add')
 
 
-    def div_function(x, y):
-        return x / y
+    def div_function(x,y):
+        if y!= 0:
+            return x / y
+        else:
+            return "error"
 
 
     server.register_function(div_function, 'div')
+
+    def mult_function(x, y):
+        return x * y
+
+
+    server.register_function(mult_function, 'mult')
+
+    def sub_function(x, y):
+        return x - y
+
+
+    server.register_function(sub_function, 'sub')
 
 
     # Register an instance; all the methods of the instance are
@@ -37,7 +52,8 @@ with SimpleXMLRPCServer(('localhost', 8000),
     class MyFuncs:
         def mul(self, x, y):
             return x + y
-
+    def polinomio(x,y):
+        return 2*x+3
 
     server.register_instance(MyFuncs())
 

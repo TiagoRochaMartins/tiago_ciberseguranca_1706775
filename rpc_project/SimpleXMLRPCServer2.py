@@ -15,9 +15,9 @@ with SimpleXMLRPCServer(('localhost', 8000),
     server.register_function(pow)
 
     # Register a function under a different name
-    def adder_function(x, y):
-        return x + y
-    server.register_function(adder_function, 'add')
+    def double_function(x,y):
+        return x^y
+    server.register_function(double_function, 'double')
 
 
 
@@ -26,7 +26,8 @@ with SimpleXMLRPCServer(('localhost', 8000),
     class MyFuncs:
         def mul(self, x, y):
             return x + y
-
+    def polinomio(x,y):
+        return 2*x+3
 
     server.register_instance(MyFuncs())
 
