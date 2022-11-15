@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b841eef0-d33b-4bc6-9dee-99112b6cfebc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SimpleXMLRPCServer3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleXMLRPCServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleXMLRPCServer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleXMLRPCServer1.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleXMLRPCServer1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleXMLRPCServer2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleXMLRPCServer2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client1.py" beforeDir="false" afterPath="$PROJECT_DIR$/client1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client2.py" beforeDir="false" afterPath="$PROJECT_DIR$/client2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
