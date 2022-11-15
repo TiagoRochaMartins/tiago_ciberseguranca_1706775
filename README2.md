@@ -1,7 +1,7 @@
-#Relatório do Trabalho prático
-#Sistemas Distribuídos
+# Relatório do Trabalho prático
+# Sistemas Distribuídos
 
-##<nome do trabalho>
+## <nome do trabalho>
 
 
 
