@@ -10,37 +10,15 @@ with SimpleXMLRPCServer(('localhost', 8000),
                         requestHandler=RequestHandler) as server:
     server.register_introspection_functions()
 
-    # Register pow() function; this will use the value of
-    # pow.__name__ as the name, which is just 'pow'.
     server.register_function(pow)
 
-    # Register a function under a different name
     def inv_trignometria(x, y):
         return x + y
     server.register_function(inv_trignometria, 'inv_trignometria')
 
-
-
-    # Register an instance; all the methods of the instance are
-    # published as XML-RPC methods (in this case, just 'mul').
     class MyFuncs:
-        def arccos(self, x, y):
-            return x + y
-
-        def arcsin(self, x, y):
-            return x + y
-
-        def arctg(self, x, y):
-            return x + y
-
-
-
-
-    ##def polinomio(x,y):
-      ##  return 2*x+3
 
 
     server.register_instance(MyFuncs())
 
-    # Run the server's main loop
     server.serve_forever()
