@@ -1,13 +1,13 @@
-from math import radians, sin, cos, tan
+from math import radians, asin, acos, atan
 
 ângulo = float(input('Escreva o valor de X: '))
 ângulo = float(input('Escreva o valor de Y: '))
 
-seno = sin(radians(ângulo))
+seno = asin(radians(ângulo))
 print('O seno é:'. format(ângulo, seno),seno)
-cosseno = cos(radians(ângulo))
+cosseno = acos(radians(ângulo))
 print('O cosseno é:'. format(ângulo, cosseno),cosseno)
-tangente = tan(radians(ângulo))
+tangente = atan(radians(ângulo))
 print('A tangente é:'. format(ângulo, tangente),tangente)
 
 #from math import radians, acsin, acos, atan

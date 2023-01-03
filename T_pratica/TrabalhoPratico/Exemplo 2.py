@@ -1,18 +1,22 @@
-from math import radians
+#import numpy as np
+#print(np.arccos(0.2))
+#print(np.arccos([0.2,0.8,0,0.5]))
 
-#import numpy
-from numpy import arcsin
-from numpy import arccos
-from numpy import arctg
+#import numpy as np
 
-#numpy.arcsin
+#array = [-1, 0, 0.5, 1]
+#print("Array: ", array)
 
-ângulo = float(input('Escreva o valor de X: '))
-ângulo = float(input('Escreva o valor de Y: '))
+#Inv_Tan = np.arctan(array)
+#print("Valores da tangente inversa: ",Inv_Tan)
 
-seno = arcsin(radians(ângulo))
-print('O seno é:'. format(ângulo, seno),seno)
-cosseno = arccos(radians(ângulo))
-print('O cosseno é:'. format(ângulo, cosseno),cosseno)
-tangente = arctg(radians(ângulo))
-print('A tangente é:'. format(ângulo, tangente),tangente)
+import cmath
+
+x = 1.0
+y = 1.0
+z = complex(x,y)
+
+print ("Seno: ",cmath.asin(z))
+print ("Cosseno: ",cmath.acos(z))
+print ("Tangente: ",cmath.atan(z))
+
