@@ -21,4 +21,3 @@ cosseno = acos(radians(ângulo))
 print('O cosseno é:'. format(ângulo, cosseno),cosseno)
 tangente = atan(radians(ângulo))
 print('A tangente é:'. format(ângulo, tangente),tangente)
-

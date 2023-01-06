@@ -1,17 +1,9 @@
-from xmlrpc.server import SimpleXMLRPCServer
-from xmlrpc.server import SimpleXMLRPCRequestHandler
+import xmlrpc.client
+
+s = xmlrpc.client.ServerProxy('http://localhost:8000')
+
 from math import radians, asin, acos, atan
 
-
-class RequestHandler:
-    pass
-
-
-with SimpleXMLRPCServer(('localhost', 8000),
-                        requestHandler=RequestHandler) as server:
-    server.register_introspection_functions()
-
-    server.register_function(pow)
 ângulo = float(input('Escreva o valor de X: '))
 ângulo = float(input('Escreva o valor de Y: '))
 
@@ -22,3 +14,4 @@ print('O cosseno é:'. format(ângulo, cosseno),cosseno)
 tangente = atan(radians(ângulo))
 print('A tangente é:'. format(ângulo, tangente),tangente)
 
+print(s.system.listMethods())

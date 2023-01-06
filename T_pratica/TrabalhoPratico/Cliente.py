@@ -5,8 +5,8 @@ x= int(input("entre o 1-valor: "))
 y=int(input("entre o 2-valor: "))
 print(type(x))
 print(s.pow(x%150,y%10))  # Returns 2**3 = 8
-print(s.inv_trignometria(x,y))  # Returns 5
-##print(s.mul(x,y))  # Returns 5*2 = 10
-print(s.arccos(x,y))
+print(s.add(x,y))  # Returns 5
+print(s.mul(x,y))  # Returns 5*2 = 10
+
 # Print list of available methods
 print(s.system.listMethods())

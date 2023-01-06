@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b841eef0-d33b-4bc6-9dee-99112b6cfebc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../T_pratica/TrabalhoPratico/Servidor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T_pratica/TrabalhoPratico/SimpleXMLRPCServer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T_pratica/TrabalhoPratico/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T_pratica/TrabalhoPratico/Cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/../T_pratica/TrabalhoPratico/Cliente.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T_pratica/TrabalhoPratico/Exemplo 2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T_pratica/TrabalhoPratico/Exemplo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../T_pratica/TrabalhoPratico/Exemplo1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleXMLRPCServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleXMLRPCServer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +32,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/1706775/Desktop/github_projecto/tiago_ciberseguranca_1706775/rpc_project&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/tiago/Desktop/tiago_ciberseguranca_1706775/rpc_project"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\1706775\Desktop\github_projecto\tiago_ciberseguranca_1706775\rpc_project" />

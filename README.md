@@ -8,7 +8,7 @@ Disciplina: Sistemas Distribuídos
 # Relatório do Trabalho prático
 # Sistemas Distribuídos
 
-## <nome do trabalho>
+## Função trigonométrica inversa
 
 
 
@@ -32,7 +32,7 @@ cliente envia a função a calcular e o argumento para o servidor retornar o seu
 
 ## 5.Funcionamento do trabalho	
 // colocar imagens do trabalho a funcionar e explicar
-
+![alt text](./Afuncionar.PNG)
 ## 6.Conclusão
 // descrever brevemente o que se fez e o que faltou fazer
 
