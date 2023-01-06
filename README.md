@@ -31,7 +31,7 @@ cliente envia a função a calcular e o argumento para o servidor retornar o seu
 // colocar o código implementado no cliente e explicá-lo
 
 ## 5.Funcionamento do trabalho	
-// colocar imagens do trabalho a funcionar e explicar
+Como é possível ver na imagem em baixo podemos ver o client e o servidor a funcionarem
 ![alt text](./Afuncionar.PNG)
 ## 6.Conclusão
 // descrever brevemente o que se fez e o que faltou fazer
