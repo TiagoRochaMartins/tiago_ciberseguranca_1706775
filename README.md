@@ -55,7 +55,7 @@ class RequestHandler(SimpleXMLRPCRequestHandler):
 #ângulo = float(input('Escreva o valor de Y: '))
 
 // Na linha em baixo o ângulo que eu escrevi vai ser convertido para radianos e calcular o asin
-#seno = asin(radians(ângulo))<br />
+<br />#seno = asin(radians(ângulo))<br />
 // Na linha em baixo vai ser o output
 #print('O asin é:'. format(ângulo, seno),seno)
 // Na linha em baixo o ângulo que eu escrevi vai ser convertido para radianos e calcular o acos
