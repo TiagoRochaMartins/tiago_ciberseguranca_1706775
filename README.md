@@ -30,8 +30,8 @@ from xmlrpc.server import SimpleXMLRPCServer
 from xmlrpc.server import SimpleXMLRPCRequestHandler
 
 //Nas duas linhas em baixo vamos restringir a um caminho específico
-class RequestHandler(SimpleXMLRPCRequestHandler): 
-    rpc_paths = ('/RPC2',)
+<br />class RequestHandler(SimpleXMLRPCRequestHandler):<br />
+    <br />rpc_paths = ('/RPC2',)<br />
 
 //Nas três linhas em baixo vamos criar o servidor
 <br />with SimpleXMLRPCServer(('localhost', 8000),<br />
