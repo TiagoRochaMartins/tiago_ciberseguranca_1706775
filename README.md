@@ -34,40 +34,40 @@ class RequestHandler(SimpleXMLRPCRequestHandler):
     rpc_paths = ('/RPC2',)
 
 //Nas três linhas em baixo vamos criar o servidor
-#with SimpleXMLRPCServer(('localhost', 8000), 
-                       #requestHandler=RequestHandler) as server:
-    #server.register_introspection_functions()
+<br />with SimpleXMLRPCServer(('localhost', 8000),<br />
+                       <br />requestHandler=RequestHandler) as server:<br />
+    <br />server.register_introspection_functions()<br />
 
 //A última linha vai executar o loop principal do servidor
-    #server.serve_forever()
+    <br />server.serve_forever()<br />
 
 ## 4.Client	
 
-#import xmlrpc.client
+<br />import xmlrpc.client<br />
 
-#s = xmlrpc.client.ServerProxy('http://localhost:8000')
+<br />s = xmlrpc.client.ServerProxy('http://localhost:8000')<br />
 
 //Na linha em baixo a partir do módulo math vamos importar várias funções.
-#from math import radians, asin, acos, atan
+<br />from math import radians, asin, acos, atan<br />
 
 //Nas duas linhas em baixo vamos ler o X e o Y.
-#ângulo = float(input('Escreva o valor de X: '))
-#ângulo = float(input('Escreva o valor de Y: '))
+<br />ângulo = float(input('Escreva o valor de X: '))<br />
+<br />ângulo = float(input('Escreva o valor de Y: '))<br />
 
 // Na linha em baixo o ângulo que eu escrevi vai ser convertido para radianos e calcular o asin
-<br />#seno = asin(radians(ângulo))<br />
+<br />seno = asin(radians(ângulo))<br />
 // Na linha em baixo vai ser o output
-#print('O asin é:'. format(ângulo, seno),seno)
+<br />print('O asin é:'. format(ângulo, seno),seno)<br />
 // Na linha em baixo o ângulo que eu escrevi vai ser convertido para radianos e calcular o acos
-#cosseno = acos(radians(ângulo))
+<br />cosseno = acos(radians(ângulo))<br />
 // Na linha em baixo vai ser o output
-#print('O acos é:'. format(ângulo, cosseno),cosseno)
+<br />print('O acos é:'. format(ângulo, cosseno),cosseno)<br />
 // Na linha em baixo o ângulo que eu escrevi vai ser convertido para radianos e calcular a atan
-#tangente = atan(radians(ângulo))
+<br />tangente = atan(radians(ângulo))<br />
 // Na linha em baixo vai ser o output
-#print('A atan é:'. format(ângulo, tangente),tangente)
+<br />print('A atan é:'. format(ângulo, tangente),tangente)<br />
 
-#print(s.system.listMethods())
+<br />print(s.system.listMethods())<br />
 
 ## 5.Funcionamento do trabalho	
 Como é possível ver na imagem em baixo podemos ver o client e o servidor a funcionarem
