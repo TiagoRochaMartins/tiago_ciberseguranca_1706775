@@ -8,7 +8,7 @@ Disciplina: Sistemas Distribuídos
 # Relatório do Trabalho prático
 # Sistemas Distribuídos
 
-## Função trigonométrica inversa
+## Nome: Função trigonométrica inversa
 
 
 
@@ -23,8 +23,8 @@ cliente envia a função a calcular e o argumento para o servidor retornar o seu
 
 ## 2.Função implementada	
   //Esta é a função que foi implementada no servidor
-  <br />def inv_trignometria(x,y):<br />
-   <br />return x + y<br /> 
+  <p >def inv_trignometria(x,y):</p>
+    <p >return x + y</p> 
 
 ## 3.Servidor	
 
@@ -32,59 +32,60 @@ from xmlrpc.server import SimpleXMLRPCServer
 from xmlrpc.server import SimpleXMLRPCRequestHandler
 
 //Nas duas linhas em baixo vamos restringir a um caminho específico
-<br />class RequestHandler(SimpleXMLRPCRequestHandler):<br />
-    <br />rpc_paths = ('/RPC2',)<br />
+<p >class RequestHandler(SimpleXMLRPCRequestHandler):</p>
+    <p >rpc_paths = ('/RPC2',)</p>
 
 //Nas duas linhas de baixo vamos definir a função
-<br />def inv_trignometria(x,y):<br />
-   <br />return x + y<br />    
+<p >def inv_trignometria(x,y):</p>
+   <p >return x + y</p>    
 
 //Nas três linhas em baixo vamos criar o servidor
-<br />with SimpleXMLRPCServer(('localhost', 8000),<br />
-                       <br />requestHandler=RequestHandler) as server:<br />
-    <br />server.register_introspection_functions()<br />
+<p >with SimpleXMLRPCServer(('localhost', 8000),</p>
+                       <p >requestHandler=RequestHandler) as server:</p>
+    <p >server.register_introspection_functions()</p>
 
 //A última linha vai executar o loop principal do servidor
-    <br />server.serve_forever()<br />
+    <p >server.serve_forever()</p>
 
 ## 4.Client	
 
-<br />import xmlrpc.client<br />
+<p >import xmlrpc.client</p>
 
-<br />s = xmlrpc.client.ServerProxy('http://localhost:8000')<br />
+<p >s = xmlrpc.client.ServerProxy('http://localhost:8000')</p>
 
 //Na linha em baixo a partir do módulo math vamos importar várias funções.
-<br />from math import radians, asin, acos, atan<br />
+<p >from math import radians, asin, acos, atan</p>
 
 //Nas duas linhas em baixo vamos ler o X e o Y.
-<br />ângulo = float(input('Escreva o valor de X: '))<br />
-<br />ângulo = float(input('Escreva o valor de Y: '))<br />
+<p >ângulo = float(input('Escreva o valor de X: '))</p>
+<p >ângulo = float(input('Escreva o valor de Y: '))</p>
 
 // Na linha em baixo o ângulo que eu escrevi vai ser convertido para radianos e calcular o asin
-<br />seno = asin(radians(ângulo))<br />
+<p >seno = asin(radians(ângulo))</p>
 // Na linha em baixo vai ser o output
-<br />print('O asin é:'. format(ângulo, seno),seno)<br />
+<p >print('O asin é:'. format(ângulo, seno),seno)</p>
 // Na linha em baixo o ângulo que eu escrevi vai ser convertido para radianos e calcular o acos
-<br />cosseno = acos(radians(ângulo))<br />
+<p >cosseno = acos(radians(ângulo))</p>
 // Na linha em baixo vai ser o output
-<br />print('O acos é:'. format(ângulo, cosseno),cosseno)<br />
+<p >print('O acos é:'. format(ângulo, cosseno),cosseno)</p>
 // Na linha em baixo o ângulo que eu escrevi vai ser convertido para radianos e calcular a atan
-<br />tangente = atan(radians(ângulo))<br />
+<p >tangente = atan(radians(ângulo))</p>
 // Na linha em baixo vai ser o output
-<br />print('A atan é:'. format(ângulo, tangente),tangente)<br />
+<p >print('A atan é:'. format(ângulo, tangente),tangente)</p>
 
-<br />print(s.system.listMethods())<br />
+<p >print(s.system.listMethods())</p>
 
 ## 5.Funcionamento do trabalho	
 Como é possível ver na imagem em baixo podemos ver o client e o servidor a funcionarem
 ![alt text](./Afuncionar.PNG)
 ## 6.Conclusão
-<p >Neste trabalho o que foi feito foi criar um cliente e um servidor.
-No cliente criei um módulo chamado math e criei as funções radians, asin, acos, atan.
+<p >Neste trabalho o que foi feito foi criar um cliente e um servidor.</p>
+<p >No cliente criei um módulo chamado math e criei as funções radians, asin, acos, atan.
 Criei duas linhas em que vai ser pedido o valor de X e de Y.
 Nas linhas em baixo basicamente o ângulo vai ser convertido para radianos e calcular o asin, acos e atan.
-E na outra linha vai sair o respetivo output do cálculo.
-Resumidamente O cliente vai enviar uma função a calcular e o argumento para o servidor retornar o seu valor.</p>
+E na outra linha vai sair o respetivo output do cálculo.</p>
+<p >No servidor resumidamente defini uma função e criei um servidor</p>
+<p >Resumidamente O cliente vai enviar uma função a calcular e o argumento para o servidor retornar o seu valor.</p>
 
 
 ## Bibliografia
