@@ -79,9 +79,11 @@ from xmlrpc.server import SimpleXMLRPCRequestHandler
 Como é possível ver na imagem em baixo podemos ver o client e o servidor a funcionarem
 ![alt text](./Afuncionar.PNG)
 ## 6.Conclusão
-<br />Neste trabalho o que foi feito foi criar um cliente e um servidor.<br />
-<br />No cliente criei um módulo chamado math e criei as funções radians, asin, acos, atan.<br />
+<p >Neste trabalho o que foi feito foi criar um cliente e um servidor.</p>
+<p>No cliente criei um módulo chamado math e criei as funções radians, asin, acos, atan.</p>
 <br />Criei duas linhas em que vai ser pedido o valor de X e de Y.<br />
+<br />Nas linhas em baixo basicamente o ângulo vai ser convertido para radianos e calcular o asin, acos e atan.<br />
+<br />E na outra linha vai sair o respetivo output do cálculo.<br />
 <br />Resumidamente O cliente vai enviar uma função a calcular e o argumento para o servidor retornar o seu valor.<br />
 
 
