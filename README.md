@@ -22,7 +22,9 @@ indicada em x com argumento y (exemplo arccos(y)) e retorna ao cliente o resulta
 cliente envia a função a calcular e o argumento para o servidor retornar o seu valor. 
 
 ## 2.Função implementada	
-  // colocar a descrição da função a implementar no servidor e explica-la 
+  //Esta é a função que foi implementada no servidor
+  <br />def inv_trignometria(x,y):<br />
+   <br />return x + y<br /> 
 
 ## 3.Servidor	
 
@@ -32,6 +34,10 @@ from xmlrpc.server import SimpleXMLRPCRequestHandler
 //Nas duas linhas em baixo vamos restringir a um caminho específico
 <br />class RequestHandler(SimpleXMLRPCRequestHandler):<br />
     <br />rpc_paths = ('/RPC2',)<br />
+
+//Nas duas linhas de baixo vamos definir a função
+<br />def inv_trignometria(x,y):<br />
+   <br />return x + y<br />    
 
 //Nas três linhas em baixo vamos criar o servidor
 <br />with SimpleXMLRPCServer(('localhost', 8000),<br />
@@ -73,7 +79,11 @@ from xmlrpc.server import SimpleXMLRPCRequestHandler
 Como é possível ver na imagem em baixo podemos ver o client e o servidor a funcionarem
 ![alt text](./Afuncionar.PNG)
 ## 6.Conclusão
-// descrever brevemente o que se fez e o que faltou fazer
+<br />Neste trabalho o que foi feito foi criar um cliente e um servidor.<br />
+<br />No cliente criei um módulo chamado math e criei as funções radians, asin, acos, atan.<br />
+<br />Criei duas linhas em que vai ser pedido o valor de X e de Y.<br />
+<br />Resumidamente O cliente vai enviar uma função a calcular e o argumento para o servidor retornar o seu valor.<br />
+
 
 ## Bibliografia
 

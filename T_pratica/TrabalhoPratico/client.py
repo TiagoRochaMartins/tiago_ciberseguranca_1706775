@@ -15,3 +15,5 @@ tangente = atan(radians(ângulo))
 print('A atan é:'. format(ângulo, tangente),tangente)
 
 print(s.system.listMethods())
+
+
