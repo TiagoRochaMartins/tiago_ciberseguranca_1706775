@@ -84,11 +84,10 @@ Como é possível ver na imagem em baixo podemos ver o client e o servidor a fun
 Criei duas linhas em que vai ser pedido o valor de X e de Y.
 Nas linhas em baixo basicamente o ângulo vai ser convertido para radianos e calcular o asin, acos e atan.
 E na outra linha vai sair o respetivo output do cálculo.</p>
-<p >No servidor resumidamente defini uma função e criei um servidor</p>
-<p >Resumidamente O cliente vai enviar uma função a calcular e o argumento para o servidor retornar o seu valor.</p>
+<p >No servidor resumidamente defini uma função e criei um servidor.</p>
+<p >Resumidamente o cliente vai enviar uma função a calcular e o argumento para o servidor retornar o seu valor.</p>
 
 
-## Bibliografia
 
 
 
