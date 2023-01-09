@@ -8,7 +8,7 @@ Disciplina: Sistemas Distribuídos
 # Relatório do Trabalho prático
 # Sistemas Distribuídos
 
-## Nome: Função trigonométrica inversa
+## Nome do Trabalho: Função trigonométrica inversa
 
 
 
