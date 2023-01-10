@@ -14,7 +14,4 @@ with SimpleXMLRPCServer(('localhost', 8000),
                         requestHandler=RequestHandler) as server:
     server.register_introspection_functions()
 
-    #server.register_function(pow)
-
-    #server.register_instance(MyFuncs())
     server.serve_forever()
