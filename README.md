@@ -53,10 +53,10 @@ cliente envia a função a calcular e o argumento para o servidor retornar o seu
 
 <p >s = xmlrpc.client.ServerProxy('http://localhost:8000')</p>
 
-//Na linha em baixo a partir do módulo math vamos importar várias funções.
+//Na linha de baixo a partir do módulo math vamos importar várias funções.
 <p >from math import radians, asin, acos, atan</p>
 
-//Nas duas linhas em baixo vamos ler o X e o Y.
+//Nas duas linhas abaixo vamos ler o X e o Y.
 <p >ângulo = float(input('Escreva o valor de X: '))</p>
 <p >ângulo = float(input('Escreva o valor de Y: '))</p>
 
@@ -82,7 +82,7 @@ Como é possível ver na imagem em baixo podemos ver o client e o servidor a fun
 <p >Neste trabalho o que foi feito foi criar um cliente e um servidor.</p>
 <p >No cliente criei um módulo chamado math e criei as funções radians, asin, acos, atan.
 Criei duas linhas em que vai ser pedido o valor de X e de Y.
-Nas linhas em baixo basicamente o ângulo vai ser convertido para radianos e calcular o asin, acos e atan.
+Nas linhas de baixo basicamente o ângulo vai ser convertido para radianos e calcular o asin, acos e atan.
 E na outra linha vai sair o respetivo output do cálculo.</p>
 <p >No servidor resumidamente defini uma função e criei um servidor.</p>
 <p >Resumidamente o cliente vai enviar uma função a calcular e o argumento para o servidor retornar o seu valor.</p>
