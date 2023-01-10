@@ -1,6 +1,6 @@
 ﻿# tiago_ciberseguranca_1706775
-<p >nome: TiagoMartins1706775</p>
-<p >curso: Ciberseguranca</p>
+<p >Nome: TiagoMartins1706775</p>
+<p >Curso: Ciberseguranca</p>
 <p >Disciplina: Sistemas Distribuídos</p>
 
 ![alt text](./imagens/IPG.png)
