@@ -28,8 +28,8 @@ cliente envia a função a calcular e o argumento para o servidor retornar o seu
 
 ## 3.Servidor	
 
-from xmlrpc.server import SimpleXMLRPCServer
-from xmlrpc.server import SimpleXMLRPCRequestHandler
+<p >from xmlrpc.server import SimpleXMLRPCServer</p>
+<p >from xmlrpc.server import SimpleXMLRPCRequestHandler</p>
 
 //Nas duas linhas em baixo vamos restringir a um caminho específico
 <p >class RequestHandler(SimpleXMLRPCRequestHandler):</p>
