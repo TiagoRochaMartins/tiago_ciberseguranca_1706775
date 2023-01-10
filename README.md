@@ -15,6 +15,7 @@ Disciplina: Sistemas Distribuídos
 ## Aluno: Tiago Martins, Número:1706775,
 ## Github:https://github.com/TiagoRochaMartins, 
 ## Email:tiagorochamartins19@gmail.com
+## No GITHUB o código do servidor e do client encontram-se na pasta T_pratica/TrabalhoPratico
 
 ## 1.Descrição do Trabalho
 Este trabalho consiste na criação de uma função no servidor: implementar função inv_trignometria(x,y) que calcula os valores da função arccos, arcsin ,arctg 
