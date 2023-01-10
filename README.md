@@ -5,7 +5,7 @@
 
 ![alt text](./imagens/IPG.png)
 
-# Relatório do Trabalho prático
+# Relatório do Trabalho Prático
 # Sistemas Distribuídos
 
 ## Nome do Trabalho: Função trigonométrica inversa
